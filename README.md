@@ -22,7 +22,7 @@ To export the data from the database and generate a mbtiles vector tileset, simp
 To remove all local `.mbtiles` and `.geojson` files, run:
 
 ```shell
-   $ make export
+   $ make clean
 ```
 
 You can also just execute `make all` to clean up local files, (re-)install the database export views and create the mbtiles:
